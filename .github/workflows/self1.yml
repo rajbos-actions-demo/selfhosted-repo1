@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     paths: 
-      - .github/workflows/self.yml
+      - .github/workflows/self1.yml
 jobs:
   self-hosted-number1:
     runs-on: self-hosted

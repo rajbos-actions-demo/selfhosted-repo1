@@ -1,0 +1,8 @@
+on:
+  push:
+  workflow_dispatch:
+  
+jobs:
+  runs-on: self-hosted
+  steps:
+    - run: echo "Hello world"
